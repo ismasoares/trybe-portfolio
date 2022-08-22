@@ -1,3 +1,25 @@
-.profilepic {
+#profilepic {
     width: 150px;
+    margin: 10px 0px;
+    display: inline-block;
+}
+
+.intern-links {
+    display: inline;
+    left: 0px;
+}
+.intern-links li{
+    display: inline;
+    padding: 0px 5px 5px 0px
+}
+
+img:target{
+    border: 10px;
+    border-color:rgb(255, 239, 196);
+    border-style: solid;
+    transition: border 2s;
+}
+section:target {
+    background-color: rgb(255, 239, 196);
+    transition: background-color 1s;
 }
